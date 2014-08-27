@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Assignment 3</title>
+  <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="content">
+    <nav>
+      <ul>
+        <li><a href="broken link">link 1</a>
+        </li>
+        <li><a href="broken link">link 2</a>
+        </li>
+        <li><a href="broken link">link 3</a>
+        </li>
+        <li><a href="broken link">link 4</a>
+        </li>
+      </ul>
+    </nav
+    ><section>
+      <h1>That's a mad form yo!</h1>
+      <form action="/black_hole" method="post">
+        <div>
+          <label class="mainQuestion" for="name">Your Name</label>
+          <input type="text" placeholder="Name" id="name" />
+        </div>
+        <div>
+          <label class="mainQuestion" for="birthday">Birthday</label>
+          <input type="date" id="birthday" />
+        </div>
+        <div>
+          <label class="mainQuestion" for="secretCode">Secret Code</label>
+          <input id="secretCode" type="password" placeholder="your secret code" />
+        </div>
+        <div>
+          <label class="mainQuestion">Did you brush your teeth this morning?</label>
+          <fieldset>
+            <label for="yes">yes</label>
+            <input type="radio" id="yes" name="brush"/>
+            <label for="no">no</label>
+            <input type="radio" id="no" name="brush"/>
+            <label for="maybe">maybe</label>
+            <input type="radio" id="maybe" name="brush"/>
+          </fieldset>
+        </div>
+        <div>
+          <label class="mainQuestion" for="TIY">How much do you love TIY?</label>
+          <span>so much</span>
+          <input id="TIY" type="range" min="1" max="10" step="1" /><span>the most</span>
+        </div>
+        <div>
+          <label class="mainQuestion" for="skunkFile">Please include a photo of your pet skunk</label>
+          <input type="file" id="skunkFile" accept="image/*" />
+        </div>
+        <div>
+          <label class="mainQuestion" for="unicornColor">What is your favorite unicorn color?</label>
+          <select id="unicornColor">
+            <option>White</option>
+            <option>Pink</option>
+            <option>Shiny</option>
+            <option>Glitter Rainbow</option>
+          </select>
+        </div>
+        <div>
+          <label class="mainQuestion" for="secrets">Tell me all your secrets...</label>
+          <textarea id="secrets" placeholder="your secrets here"></textarea>
+        </div>
+        <div class="button">
+          <a href="broken cancel link">Cancel</a>
+          <button type="submit">Make it go</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  <!-- content -->
+</body>
+
+</html>
